@@ -1,0 +1,45 @@
+:root {
+    --darkPurple: #2e2042;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("/nav.jpg");
+    color: white;
+}
+
+.nav-logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-list {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    font-size: 18px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
