@@ -9,7 +9,9 @@ const NavBar = () => {
       <div className="nav-bar">
         <div className="nav-logo">
           <FaFantasyFlightGames className="nav-logo-icon" />
-          <span className="nav-logo-name">GAMEFORGE</span>
+          <Link to={"/"}>
+            <span className="nav-logo-name">GAMEFORGE</span>
+          </Link>
         </div>
         <div className="nav-all-list">
           <li className="nav-list">
