@@ -1,5 +1,6 @@
 :root {
     --darkPurple: #2e2042;
+    --lightPurple: #8355e5;
 }
 
 * {
@@ -53,6 +54,11 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+}
+
+ul:hover {
+    color: var(--lightPurple);
+    transition-duration: 0.5s;
 }
 
 .nav-cart-icon {
