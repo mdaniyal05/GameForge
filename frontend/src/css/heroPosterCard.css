@@ -1,0 +1,10 @@
+.hero-card {
+    height: 600px;
+    width: 390px;
+    background-image: url("/heroPosterCard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 40px;
+}
