@@ -6,3 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.hero-card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
