@@ -1,0 +1,47 @@
+:root {
+    --lightPurple: #8355e5;
+}
+
+.hero-buy-card {
+    height: 384px;
+    width: 609px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--lightPurple);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    gap: 20px;
+    color: white;
+    padding-left: 60px;
+}
+
+.card-heading-1, .now-available {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.hero-card-product {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero-buy-now {
+    height: 48px;
+    width: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--lightPurple);
+    border-radius: 100px;
+    font-weight: bold;
+    border: solid white 2px;
+}
+
+.hero-buy-now:hover {
+    background-color: var(--lightPurple);
+    color: white;
+    transition: 0.5s;
+}
