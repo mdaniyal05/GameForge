@@ -1,5 +1,5 @@
 import "../css/navBar.css";
-import { FaFantasyFlightGames } from "react-icons/fa";
+import { PiGameControllerDuotone } from "react-icons/pi";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
       <div className="nav-bar">
         <div className="nav-logo">
-          <FaFantasyFlightGames className="nav-logo-icon" />
+          <PiGameControllerDuotone className="nav-logo-icon" />
           <Link to={"/"}>
             <span className="nav-logo-name">GAMEFORGE</span>
           </Link>
