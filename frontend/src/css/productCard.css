@@ -1,13 +1,25 @@
 .product-container {
-    width: 350px;
+    width: 320px;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    background-color: black;
+    color: white;
 }
 
 .product-image img {
     border-radius: 5px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-price {
+    font-size: 14px;
+    font-weight: 400;
 }

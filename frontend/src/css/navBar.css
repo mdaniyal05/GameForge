@@ -24,8 +24,11 @@ a {
     align-items: center;
     margin-left: 150px;
     font-size: 25px;
-    font-weight: bold;
     gap: 10px;
+}
+
+.nav-logo-name {
+    font-weight: 700;
 }
 
 .nav-logo-icon {
