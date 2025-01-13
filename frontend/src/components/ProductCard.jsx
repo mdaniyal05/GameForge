@@ -1,9 +1,11 @@
+import "../css/productCard.css";
+
 const ProductCard = ({ img, productName, productPrice }) => {
   return (
     <>
       <div className="product-container">
         <div className="product-image">
-          <img src={img} alt={productName} />
+          <img src={img} alt={productName} height={270} width={270} />
         </div>
         <p className="product-name">{productName}</p>
         <span className="product-price">${productPrice}</span>
