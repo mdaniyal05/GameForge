@@ -1,6 +1,10 @@
+:root {
+    --lightPurple: #8355e5;
+}
+
 .product-container {
     width: 320px;
-    height: 400px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -17,9 +21,31 @@
 .product-name {
     font-size: 16px;
     font-weight: 700;
+    margin-top: 5px;
 }
 
 .product-price {
     font-size: 14px;
     font-weight: 400;
+}
+
+.add-to-cart-button {
+    margin-top: 20px;
+}
+
+.add-to-cart-button button {
+    height: 38px;
+    width: 193px;
+    background-color: var(--lightPurple);
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.add-to-cart-button button:hover {
+    color: var(--lightPurple);
+    background-color: white;
+    transition: 0.5s;
 }
