@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 850px;
     background-color: black;
     color: white;
 }
@@ -51,5 +51,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }

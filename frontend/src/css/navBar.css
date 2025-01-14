@@ -52,6 +52,11 @@ a {
     gap: 30px;
 }
 
+ul {
+    font-weight: 500;
+    transition: 0.5s;
+}
+
 ul:hover {
     color: var(--lightPurple);
     transition-duration: 0.5s;
