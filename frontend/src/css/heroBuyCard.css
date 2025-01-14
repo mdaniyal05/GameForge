@@ -42,6 +42,7 @@
     border-radius: 100px;
     font-weight: bold;
     border: solid white 2px;
+    transition: 0.5s;
 }
 
 .hero-buy-now:hover {
