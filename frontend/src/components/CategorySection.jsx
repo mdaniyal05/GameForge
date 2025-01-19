@@ -1,4 +1,5 @@
 import "../css/categorySection.css";
+import CategorySectionCard from "./CategorySectionCard";
 
 const CategorySection = () => {
   return (
@@ -9,18 +10,18 @@ const CategorySection = () => {
             <span>SHOP BY CATEGORY</span>
           </h2>
           <div className="categories-cont">
-            <div className="consoles-cont">
-              <div className="consoles"></div>
-              <span className="consoles-heading">Consoles</span>
-            </div>
-            <div className="accessories-cont">
-              <div className="accessories"></div>
-              <span className="accessories-heading">Accessories</span>
-            </div>
-            <div className="controllers-cont">
-              <div className="controllers"></div>
-              <span className="controllers-heading">Controllers</span>
-            </div>
+            <CategorySectionCard
+              cardName={"Consoles"}
+              imgSrc={"./waveGen.jpg"}
+            />
+            <CategorySectionCard
+              cardName={"Accessories"}
+              imgSrc={"./accessories.jpg"}
+            />
+            <CategorySectionCard
+              cardName={"Controllers"}
+              imgSrc={"./controller.jpg"}
+            />
           </div>
         </div>
       </div>
