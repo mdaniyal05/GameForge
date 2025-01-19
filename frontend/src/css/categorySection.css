@@ -12,7 +12,6 @@
 }
 
 .category-section-cont2 {
-    background-color: black;
     width: 1300px;
     display: flex;
     flex-direction: column;
@@ -24,4 +23,11 @@
 .category-heading span {
     font-size: 42px;
     font-weight: 700;
+}
+
+.categories-cont {
+    background-color: black;
+    height: 600px;
+    width: 1222px;
+    display: flex;
 }
