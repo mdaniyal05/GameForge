@@ -5,7 +5,7 @@
 .category-section-cont {
     background-color: var(--lightGrey);
     color: white;
-    height: 900px;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,9 +28,7 @@
 .categories-cont {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 600px;
     width: 1300px;
-    display: flex;
-    gap: 40px;
 }
