@@ -1,0 +1,16 @@
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-image img {
+    border-radius: 5px;
+}
+
+.card-name {
+    font-size: 22px;
+    font-weight: 500;
+}
