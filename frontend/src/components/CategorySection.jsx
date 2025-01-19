@@ -12,7 +12,7 @@ const CategorySection = () => {
           <div className="categories-cont">
             <CategorySectionCard
               cardName={"Consoles"}
-              imgSrc={"./waveGen.jpg"}
+              imgSrc={"./playstation.jpg"}
             />
             <CategorySectionCard
               cardName={"Accessories"}

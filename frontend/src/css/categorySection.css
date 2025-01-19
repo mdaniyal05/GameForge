@@ -12,12 +12,12 @@
 }
 
 .category-section-cont2 {
-    width: 1300px;
+    width: 1350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 30px;
+    gap: 80px;
 }
 
 .category-heading span {
@@ -26,8 +26,11 @@
 }
 
 .categories-cont {
-    background-color: black;
-    height: 600px;
-    width: 1222px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 1300px;
+    display: flex;
+    gap: 40px;
 }
