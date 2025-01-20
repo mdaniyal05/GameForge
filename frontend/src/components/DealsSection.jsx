@@ -1,20 +1,29 @@
 import "../css/dealsSection.css";
-import DealsSectionCard from "../components/DealsSectionCard";
 
 const DealsSection = () => {
   return (
     <>
       <div className="deals-section-cont">
         <div className="cards-cont">
-          <DealsSectionCard
-            cardImg={"./chronoSplitCover.jpg"}
-            cardName={"Chrono Split"}
-          />
-          <DealsSectionCard
-            cardImg={"./deadAtLastCover.jpg"}
-            cardName={"Dead At Last"}
-          />
-          <DealsSectionCard cardImg={"./kiraCover.jpg"} cardName={"Kira"} />
+          <div className="chrono-split">
+            <img
+              src="./chronosplitCover.jpg"
+              alt="Chrono Split"
+              width={400}
+              height={530}
+            />
+          </div>
+          <div className="dead-at-last">
+            <img
+              src="./deadAtLastCover.jpg"
+              alt="Dead At Last"
+              width={400}
+              height={530}
+            />
+          </div>
+          <div className="kira">
+            <img src="./kiraCover.jpg" alt="Kira" width={400} height={530} />
+          </div>
         </div>
       </div>
     </>

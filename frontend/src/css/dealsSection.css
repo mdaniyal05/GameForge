@@ -1,4 +1,26 @@
 .deals-section-cont {
     height: 808px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.chrono-split {
+    position: absolute;
+}
+
+.dead-at-last {
+    position: absolute;
+}
+
+.kira {
+    position: absolute;
 }
