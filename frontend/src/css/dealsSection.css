@@ -36,7 +36,7 @@
 }
 
 .weeks-deals {
-    height: 360px;
+    height: 365px;
     width: 555px;
     display: flex;
     flex-direction: column;
@@ -47,4 +47,39 @@
     z-index: 6;
     left: 270px;
     top: 120px;
+    color: white;
+}
+
+.this-week {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.discount {
+    font-size: 130px;
+    font-weight: 700;
+}
+
+.weeks-deals p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.deals-button {
+    height: 43px;
+    width: 143px;
+    border: solid white 2px;
+    border-radius: 100px;
+    color: var(--lightPurple);
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.deals-button:hover {
+    background-color: var(--lightPurple);
+    color: white;
+    border: solid white 2px;
+    transition: 0.5s;
 }

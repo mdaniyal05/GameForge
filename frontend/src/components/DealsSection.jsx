@@ -24,12 +24,12 @@ const DealsSection = () => {
           <img src="./kiraCover.jpg" alt="Kira" width={400} height={530} />
         </div>
         <div className="weeks-deals">
-          <span className="this-week">THIS WEEK&apos;S DEALS</span>
+          <h2>
+            <span className="this-week">THIS WEEK&apos;S DEALS</span>
+          </h2>
           <span className="discount">10%</span>
           <p>off all games</p>
-          <button className="deals-button">
-            <span>Shop Now</span>
-          </button>
+          <button className="deals-button">Shop Now</button>
         </div>
       </div>
     </>
