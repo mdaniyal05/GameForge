@@ -1,12 +1,12 @@
-import "../css/bestSellerSection.css";
-import ProductCard from "../components/ProductCard.jsx";
+import "../css/sellersSection.css";
+import ProductCard from "./ProductCard.jsx";
 
-const BestSellerSection = () => {
+const SellersSection = ({ mainHeading }) => {
   return (
     <>
       <div className="best-seller-container">
         <div className="best-seller-heading">
-          <h2>BEST SELLERS</h2>
+          <h2>{mainHeading}</h2>
           <div className="view-all">
             <span>View All</span>
           </div>
@@ -38,4 +38,4 @@ const BestSellerSection = () => {
   );
 };
 
-export default BestSellerSection;
+export default SellersSection;
