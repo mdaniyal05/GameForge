@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection.jsx";
 import NavBar from "../components/NavBar.jsx";
 import CategorySection from "../components/CategorySection";
 import DealsSection from "../components/DealsSection.jsx";
+import DiscountSection from "../components/DiscountSection.jsx";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <CategorySection />
       <DealsSection />
       <SellersSection mainHeading={"UPGRADE YOUR GEAR"} />
+      <DiscountSection />
     </>
   );
 };
