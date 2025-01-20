@@ -1,5 +1,5 @@
 .discount-cont {
-    min-height: 400px;
+    min-height: 500px;
     background-image: url("/discountCover.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -10,4 +10,14 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.spend-save {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.save {
+    font-size: 20px;
+    font-weight: 500;
 }

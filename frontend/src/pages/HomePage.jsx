@@ -15,6 +15,7 @@ const HomePage = () => {
       <DealsSection />
       <SellersSection mainHeading={"UPGRADE YOUR GEAR"} />
       <DiscountSection />
+      <SellersSection mainHeading={"TRENDING GAMES"} />
     </>
   );
 };
