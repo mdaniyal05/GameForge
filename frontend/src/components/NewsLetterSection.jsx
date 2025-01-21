@@ -12,7 +12,7 @@ const NewsLetterSection = () => {
         </div>
         <div className="email-cont">
           <div className="email-input">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email *</label>
             <input type="email" />
           </div>
           <div className="email-input2">

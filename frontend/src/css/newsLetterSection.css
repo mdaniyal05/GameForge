@@ -28,3 +28,33 @@
     font-size: 15px;
     font-weight: lighter;
 }
+
+.email-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.email-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-input input {
+    width: 500px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: solid white 2px;
+    border-radius: 10px;
+}
+
+.email-input2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
