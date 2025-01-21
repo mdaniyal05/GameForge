@@ -1,5 +1,5 @@
 .news-letter-cont {
-    min-height: 500px;
+    min-height: 400px;
     background-image: url("/newsletter.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -10,4 +10,21 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.heading-cont {
+    height: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news-letter-heading {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.news-letter-desc {
+    font-size: 15px;
+    font-weight: lighter;
 }

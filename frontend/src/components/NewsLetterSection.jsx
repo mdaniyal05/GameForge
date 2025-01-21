@@ -5,9 +5,7 @@ const NewsLetterSection = () => {
     <>
       <div className="news-letter-cont">
         <div className="heading-cont">
-          <h2>
-            <span className="news-letter-heading">NEWSLETTER</span>
-          </h2>
+          <h2 className="news-letter-heading">NEWSLETTER</h2>
           <p className="news-letter-desc">
             Sign up to receive updates on new products and special offers
           </p>
