@@ -1,7 +1,9 @@
+import "../css/newsLetterSection.css";
+
 const NewsLetterSection = () => {
   return (
     <>
-      <h1>News Letter Section</h1>
+      <div className="news-letter-cont"></div>
     </>
   );
 };

@@ -1,0 +1,13 @@
+.news-letter-cont {
+    min-height: 500px;
+    background-image: url("/newsletter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
