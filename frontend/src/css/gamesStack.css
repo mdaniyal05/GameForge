@@ -1,5 +1,5 @@
 .games-stack-cont {
-    min-height: 300px;
+    min-height: 320px;
     background-image: url("/gamesStackCover.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -17,5 +17,5 @@
     position: absolute;
     height: 310px;
     width: 962px;
-    bottom: 80px;
+    bottom: 100px;
 }

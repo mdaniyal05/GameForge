@@ -6,6 +6,7 @@ import DealsSection from "../components/DealsSection.jsx";
 import DiscountSection from "../components/DiscountSection.jsx";
 import NewsLetterSection from "../components/NewsLetterSection.jsx";
 import GamesStack from "../components/GamesStack.jsx";
+import Footer from "../components/Footer.jsx";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <SellersSection mainHeading={"TRENDING GAMES"} />
       <NewsLetterSection />
       <GamesStack />
+      <Footer />
     </>
   );
 };
