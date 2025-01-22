@@ -1,0 +1,13 @@
+.games-stack-cont {
+    min-height: 250px;
+    background-image: url("/gamesStackCover.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

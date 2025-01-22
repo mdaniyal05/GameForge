@@ -1,3 +1,5 @@
+import "../css/gamesStack.css";
+
 const GamesStack = () => {
   return (
     <>
