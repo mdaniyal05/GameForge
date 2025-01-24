@@ -44,7 +44,17 @@ const Footer = () => {
           <div className="line"></div>
         </div>
         <div className="footer-others">
-          <div className="payment-methods"></div>
+          <div className="payment-methods">
+            <p>Payment Methods</p>
+            <img src="./Visa.avif" alt="Visa" />
+            <img src="./payPal.avif" alt="Pay Pal" />
+            <img src="./masterCard.avif" alt="Master Card" />
+            <img src="./JCB.avif" alt="JCB" />
+            <img src="./discover.avif" alt="Discover" />
+            <img src="./diners.avif" alt="Diners" />
+            <img src="./chinaUnionPay.avif" alt="China Union Pay" />
+            <img src="americanExpress.avif" alt="American Express" />
+          </div>
           <div className="join-community"></div>
         </div>
         <div className="footer-copyright">

@@ -65,3 +65,15 @@
     background-color: white;
     opacity: 35%;
 }
+
+.footer-others {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.payment-methods img {
+    width: 50px;
+    height: 28px;
+}
