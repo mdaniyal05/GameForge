@@ -14,15 +14,19 @@
 .footer-logo, .footer-products, .footer-store, .footer-policy {
     height: 495px;
     width: 305px;
-}
-
-.footer-logo {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footer-logo {
     gap: 10px;
+}
+
+.footer-logo span {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer-logo-icon {
