@@ -4,6 +4,10 @@
     color: white;
 }
 
+.footer-cont li {
+    list-style-type: none;
+}
+
 .footer-options {
     height: 495px;
     display: flex;
@@ -14,13 +18,20 @@
 .footer-logo, .footer-products, .footer-store, .footer-policy {
     height: 495px;
     width: 305px;
+}
+
+.footer-products, .footer-store, .footer-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.footer-logo {
     gap: 10px;
 }
 
@@ -32,3 +43,4 @@
 .footer-logo-icon {
     font-size: 80px;
 }
+

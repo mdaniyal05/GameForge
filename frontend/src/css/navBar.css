@@ -12,6 +12,11 @@
     color: white;
 }
 
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-logo {
     height: 100px;
     display: flex;
