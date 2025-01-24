@@ -3,11 +3,6 @@
     --lightPurple: #8355e5;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .nav-bar {
     height: 120px;
     display: flex;
@@ -52,12 +47,12 @@ a {
     gap: 30px;
 }
 
-ul {
+.nav-list ul {
     font-weight: 500;
     transition: 0.5s;
 }
 
-ul:hover {
+.nav-list ul:hover {
     color: var(--lightPurple);
     transition-duration: 0.5s;
 }
