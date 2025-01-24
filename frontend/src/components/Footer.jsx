@@ -40,7 +40,9 @@ const Footer = () => {
             </li>
           </div>
         </div>
-        <div className="divider"></div>
+        <div className="divider">
+          <div className="line"></div>
+        </div>
         <div className="footer-others">
           <div className="payment-methods"></div>
           <div className="join-community"></div>
