@@ -1,5 +1,9 @@
 import "../css/footer.css";
 import { PiGameControllerDuotone } from "react-icons/pi";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -55,7 +59,13 @@ const Footer = () => {
             <img src="./chinaUnionPay.avif" alt="China Union Pay" />
             <img src="americanExpress.avif" alt="American Express" />
           </div>
-          <div className="join-community"></div>
+          <div className="join-community">
+            <p>Join the Community</p>
+            <FaFacebookF className="facebook" />
+            <FaInstagram className="instagram" />
+            <FaYoutube className="youtube" />
+            <FaTiktok className="tiktok" />
+          </div>
         </div>
         <div className="footer-copyright">
           <p>© 2035 by GAMEFORGE. Powered and secured by GAMEFORGE</p>

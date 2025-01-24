@@ -73,7 +73,28 @@
     align-items: flex-start;
 }
 
+.payment-methods {
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.payment-methods p , .join-community p {
+    margin-bottom: 15px;
+}
+
 .payment-methods img {
-    width: 50px;
+    width: 40px;
     height: 28px;
+    margin: 0px 20px 10px 0px;
+}
+
+.join-community {
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+.facebook, .instagram, .youtube, .tiktok {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
 }
