@@ -11,13 +11,14 @@
 .footer-options {
     height: 495px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
 .footer-logo, .footer-products, .footer-store, .footer-policy {
     height: 495px;
-    width: 305px;
+    width: 280px;
 }
 
 .footer-products, .footer-store, .footer-policy {
@@ -25,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 35px;
 }
 
 .footer-logo {
@@ -44,3 +46,9 @@
     font-size: 80px;
 }
 
+.footer-products ul, .footer-store ul, .footer-policy ul {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    word-wrap: break-word;
+}

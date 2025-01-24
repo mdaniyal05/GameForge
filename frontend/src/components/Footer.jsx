@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="footer-store">
             <p>Store</p>
             <li>
-              <ul>500 Terry Francine Street San Francisco</ul>
+              <ul>500 Terry Francine Street San Francisco, CA 94158</ul>
               <ul>Mon - Fri: 9am - 9pm</ul>
               <ul>info@mysite.com</ul>
               <ul>123-456-7890</ul>
