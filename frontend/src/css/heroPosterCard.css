@@ -12,3 +12,36 @@
     top: -20px;
     right: 140px;
 }
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+    .hero-card {
+        right: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-card {
+        position: static;
+        margin-top: 50px;
+        width: 450px;
+        height: 580px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-card {
+        width: 350px;
+        height: 450px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-card {
+        width: 90%;
+        height: 400px;
+        border-radius: 20px;
+    }
+}
