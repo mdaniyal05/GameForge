@@ -19,3 +19,43 @@
     width: 962px;
     bottom: 100px;
 }
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .games-stack-cont {
+        min-height: 280px;
+        background-attachment: scroll;
+        padding: 60px 20px;
+    }
+
+    .games-stack {
+        width: 80%;
+        height: auto;
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .games-stack-cont {
+        min-height: 250px;
+        padding: 40px 20px;
+    }
+
+    .games-stack {
+        width: 90%;
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .games-stack-cont {
+        min-height: 220px;
+        padding: 30px 10px;
+    }
+
+    .games-stack {
+        width: 95%;
+        bottom: 40px;
+    }
+}
