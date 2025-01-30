@@ -83,3 +83,107 @@
     border: solid white 2px;
     transition: 0.5s;
 }
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+    .chrono-split {
+        right: 50px;
+    }
+
+    .dead-at-last {
+        right: 300px;
+    }
+
+    .kira {
+        left: 300px;
+    }
+
+    .weeks-deals {
+        left: 200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .deals-section-cont {
+        height: auto;
+        padding: 100px 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .chrono-split,
+    .dead-at-last,
+    .kira {
+        position: static;
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .weeks-deals {
+        width: 80%;
+        max-width: 500px;
+        height: auto;
+        padding: 40px;
+        text-align: center;
+        position: static;
+    }
+
+    .discount {
+        font-size: 100px;
+    }
+
+    .weeks-deals p {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .weeks-deals {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .discount {
+        font-size: 80px;
+    }
+
+    .weeks-deals p {
+        font-size: 30px;
+    }
+
+    .deals-button {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .deals-section-cont {
+        padding: 80px 10px;
+    }
+
+    .weeks-deals {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .this-week {
+        font-size: 18px;
+    }
+
+    .discount {
+        font-size: 60px;
+    }
+
+    .weeks-deals p {
+        font-size: 24px;
+    }
+
+    .deals-button {
+        width: 120px;
+        height: 38px;
+        font-size: 13px;
+    }
+}
