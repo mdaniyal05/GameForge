@@ -1,21 +1,18 @@
 import "../css/productCard.css";
-import { bestSellerData } from "../JS/sliderData";
 
-const ProductCard = () => {
+const ProductCard = ({ img, productName, productPrice }) => {
   return (
     <>
-      {bestSellerData.map((data) => (
-        <div className="product-container" key={data.name}>
-          <div className="product-image">
-            <img src={data.img} alt={data.name} height={300} width={300} />
-          </div>
-          <p className="product-name">{data.name}</p>
-          <span className="product-price">${data.price}</span>
+      <div className="product-container">
+        <div className="product-image">
+          <img src={img} alt={productName} height={300} width={300} />
+          <p className="product-name">{productName}</p>
+          <span className="product-price">${productPrice}</span>
           <div className="add-to-cart-button">
             <button>Add to Cart</button>
           </div>
         </div>
-      ))}
+      </div>
     </>
   );
 };
