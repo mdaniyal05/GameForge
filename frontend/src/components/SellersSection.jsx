@@ -12,26 +12,7 @@ const SellersSection = ({ mainHeading }) => {
           </div>
         </div>
         <div className="product-slider-container">
-          <ProductCard
-            img={"/gamingChair.jpg"}
-            productName={"Gaming Chair"}
-            productPrice={400}
-          />
-          <ProductCard
-            img={"/headset.jpg"}
-            productName={"Headset"}
-            productPrice={270}
-          />
-          <ProductCard
-            img={"/wave.jpg"}
-            productName={"Wave"}
-            productPrice={650}
-          />
-          <ProductCard
-            img={"/wirelessMouse.jpg"}
-            productName={"Wireless Mouse"}
-            productPrice={150}
-          />
+          <ProductCard />
         </div>
       </div>
     </>
