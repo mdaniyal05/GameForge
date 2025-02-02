@@ -1,8 +1,16 @@
+import { useEffect, useRef, useState } from "react";
 import "../css/sellersSection.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 
 const SellersSection = ({ mainHeading }) => {
+  const [width, setWidth] = useState(0);
+  const carousel = useRef();
+
+  useEffect(() => {
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+  }, []);
+
   return (
     <>
       <div className="best-seller-container">
@@ -12,10 +20,10 @@ const SellersSection = ({ mainHeading }) => {
             <span>View All</span>
           </div>
         </div>
-        <motion.div className="carousel">
+        <motion.div className="carousel" ref={carousel}>
           <motion.div
             drag="x"
-            dragConstraints={{ right: 0 }}
+            dragConstraints={{ right: 0, left: -width }}
             className="inner-carousel"
           >
             <ProductCard />
