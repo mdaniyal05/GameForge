@@ -13,8 +13,8 @@ const SellersSection = ({ mainHeading }) => {
 
   return (
     <>
-      <div className="best-seller-container">
-        <div className="best-seller-heading">
+      <div className="seller-container">
+        <div className="seller-heading">
           <h2>{mainHeading}</h2>
           <div className="view-all">
             <span>View All</span>
