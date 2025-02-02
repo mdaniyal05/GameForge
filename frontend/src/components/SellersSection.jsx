@@ -1,5 +1,6 @@
 import "../css/sellersSection.css";
-import ProductCard from "./ProductCard.jsx";
+import ProductCard from "./ProductCard";
+import { motion } from "framer-motion";
 
 const SellersSection = ({ mainHeading }) => {
   return (
@@ -11,13 +12,11 @@ const SellersSection = ({ mainHeading }) => {
             <span>View All</span>
           </div>
         </div>
-        <div className="product-slider-container">
-          <ProductCard
-            img={"/gamingChair.jpg"}
-            productName={"Gaming Chair"}
-            productPrice={100}
-          />
-        </div>
+        <motion.div className="carousel">
+          <motion.div drag="x" className="inner-carousel">
+            <ProductCard />
+          </motion.div>
+        </motion.div>
       </div>
     </>
   );
