@@ -13,7 +13,11 @@ const SellersSection = ({ mainHeading }) => {
           </div>
         </div>
         <motion.div className="carousel">
-          <motion.div drag="x" className="inner-carousel">
+          <motion.div
+            drag="x"
+            dragConstraints={{ right: 0 }}
+            className="inner-carousel"
+          >
             <ProductCard />
           </motion.div>
         </motion.div>

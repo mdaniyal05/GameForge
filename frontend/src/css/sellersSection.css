@@ -47,18 +47,20 @@
 
 .carousel {
     height: 530px;
-    width: 1290px;
+    width: 1020px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
     cursor: grab;
+    margin-bottom: 20px;
 }
 
 .inner-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 /* Media Queries */
