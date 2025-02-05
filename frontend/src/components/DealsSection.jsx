@@ -6,7 +6,7 @@ const DealsSection = () => {
       <div className="deals-section-cont">
         <div className="chrono-split">
           <img
-            src="./chronosplitCover.jpg"
+            src="/cover/chronosplitCover.jpg"
             alt="Chrono Split"
             width={400}
             height={530}
@@ -14,14 +14,14 @@ const DealsSection = () => {
         </div>
         <div className="dead-at-last">
           <img
-            src="./deadAtLastCover.jpg"
+            src="/cover/deadAtLastCover.jpg"
             alt="Dead At Last"
             width={400}
             height={530}
           />
         </div>
         <div className="kira">
-          <img src="./kiraCover.jpg" alt="Kira" width={400} height={530} />
+          <img src="/cover/kiraCover.jpg" alt="Kira" width={400} height={530} />
         </div>
         <div className="weeks-deals">
           <h2>

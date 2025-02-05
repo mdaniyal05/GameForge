@@ -1,6 +1,6 @@
 .hero-section {
     min-height: 700px;
-    background-image: url("/heroSection.jpg");
+    background-image: url("/cover/heroSection.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

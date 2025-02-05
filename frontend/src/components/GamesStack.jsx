@@ -4,7 +4,7 @@ const GamesStack = () => {
   return (
     <>
       <div className="games-stack-cont">
-        <img src="./gamesStack.jpg" alt="Games Stack" className="games-stack" />
+        <img src="/cover/gamesStack.jpg" alt="Games Stack" className="games-stack" />
       </div>
     </>
   );

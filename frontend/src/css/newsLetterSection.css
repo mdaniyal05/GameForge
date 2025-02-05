@@ -1,6 +1,6 @@
 .news-letter-cont {
     min-height: 550px;
-    background-image: url("/newsletter.jpg");
+    background-image: url("/cover/newsletter.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

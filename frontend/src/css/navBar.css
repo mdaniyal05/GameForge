@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("/nav.jpg");
+    background-image: url("/cover/nav.jpg");
     color: white;
 }
 

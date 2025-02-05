@@ -12,15 +12,15 @@ const CategorySection = () => {
           <div className="categories-cont">
             <CategorySectionCard
               cardName={"Consoles"}
-              imgSrc={"./playstation.jpg"}
+              imgSrc={"/cover/playstation.jpg"}
             />
             <CategorySectionCard
               cardName={"Accessories"}
-              imgSrc={"./accessories.jpg"}
+              imgSrc={"/cover/accessories.jpg"}
             />
             <CategorySectionCard
               cardName={"Controllers"}
-              imgSrc={"./controller.jpg"}
+              imgSrc={"/cover/controller.jpg"}
             />
           </div>
         </div>
