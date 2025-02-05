@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import "../css/sellersSection.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
+import { bestSellerData } from "../JS/sliderData";
 
 const SellersSection = ({ mainHeading }) => {
   const [width, setWidth] = useState(0);
@@ -26,7 +27,14 @@ const SellersSection = ({ mainHeading }) => {
             dragConstraints={{ right: 0, left: -width }}
             className="inner-carousel"
           >
-            <ProductCard />
+            {bestSellerData.map((data) => (
+              <ProductCard
+                productImg={data.img}
+                productName={data.name}
+                productPrice={data.price}
+                key={data.name}
+              />
+            ))}
           </motion.div>
         </motion.div>
       </div>
