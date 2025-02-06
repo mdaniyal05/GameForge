@@ -29,4 +29,67 @@ export const bestSellerData = [
     name: "X-2 Wireless Mouse",
     price: `${24.99}`,
   },
+  {
+    img: "/product/wave.jpg",
+    name: "Wave",
+    price: `${29.99}`,
+  },
+  {
+    img: "/product/raptor.jpg",
+    name: "Raptor",
+    price: `${26.99}`,
+  },
+  {
+    img: "/product/ancientSouls.jpg",
+    name: "Ancient Souls",
+    price: `${39.99}`,
+  },
+  {
+    img: "/product/chronoSplit.jpg",
+    name: "Chronosplit",
+    price: `${39.99}`,
+  },
+];
+
+export const upgradeYourGearData = [
+  {
+    img: "/product/gamingChair2.jpg",
+    name: "Impact Gaming Chair",
+    price: `${159.99}`,
+  },
+  {
+    img: "/product/headset2.jpg",
+    name: "L503 Headset",
+    price: `${26.99}`,
+  },
+  {
+    img: "/product/mechanicalKeyboard2.jpg",
+    name: "CO-21 Mechanical Keyboard",
+    price: `${44.99}`,
+  },
+  {
+    img: "/product/waveGen.jpg",
+    name: "Wave Gen RX",
+    price: `${579.99}`,
+  },
+  {
+    img: "/product/wirelessMouse.jpg",
+    name: "X-2 Wireless Mouse",
+    price: `${24.99}`,
+  },
+  {
+    img: "/product/wave.jpg",
+    name: "Wave",
+    price: `${29.99}`,
+  },
+  {
+    img: "/product/raptor.jpg",
+    name: "Raptor",
+    price: `${26.99}`,
+  },
+  {
+    img: "/product/blaze.jpg",
+    name: "Blaze Wireless Mouse",
+    price: `${24.99}`,
+  },
 ];
