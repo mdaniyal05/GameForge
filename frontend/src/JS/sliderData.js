@@ -93,3 +93,36 @@ export const upgradeYourGearData = [
     price: `${24.99}`,
   },
 ];
+
+export const trendingGamesData = [
+  {
+    img: "/product/ancientSouls.jpg",
+    name: "Ancient Souls",
+    price: `${39.99}`,
+  },
+  {
+    img: "/product/chronoSplit.jpg",
+    name: "Chronosplit",
+    price: `${39.99}`,
+  },
+  {
+    img: "/product/cyberKid.jpg",
+    name: "Cyber Kid Infinite",
+    price: `${39.99}`,
+  },
+  {
+    img: "/product/deadAtLast.jpg",
+    name: "Dead at Last",
+    price: `${35.99}`,
+  },
+  {
+    img: "/product/iceDome.jpg",
+    name: "Ice Dome: Exile",
+    price: `${35.99}`,
+  },
+  {
+    img: "/product/kira.jpg",
+    name: "Kira and the Fading Islands",
+    price: `${35.99}`,
+  },
+];
