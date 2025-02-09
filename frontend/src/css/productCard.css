@@ -12,11 +12,11 @@
     gap: 10px;
     background-color: black;
     color: white;
-    pointer-events: none;
 }
 
 .product-image img {
     border-radius: 5px;
+    pointer-events: none;
 }
 
 .product-name {
