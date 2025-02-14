@@ -40,8 +40,8 @@ const SellersSection = ({ mainHeading, sellerData }) => {
               text={"View All"}
               bgColor={"#8355e5"}
               color={"white"}
-              height={"38px"}
-              width={"193px"}
+              height={"42px"}
+              width={"175px"}
             />
           </div>
         </div>

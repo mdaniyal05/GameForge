@@ -1,4 +1,5 @@
 import "../css/productCard.css";
+import Button from "./Button";
 
 const ProductCard = ({ productImg, productName, productPrice }) => {
   return (
@@ -10,7 +11,13 @@ const ProductCard = ({ productImg, productName, productPrice }) => {
         <p className="product-name">{productName}</p>
         <span className="product-price">${productPrice}</span>
         <div className="add-to-cart-button">
-          <button>Add to Cart</button>
+          <Button
+            text={"Add to Cart"}
+            bgColor={"#8355e5"}
+            color={"white"}
+            height={"40px"}
+            width={"193px"}
+          />
         </div>
       </div>
     </>
