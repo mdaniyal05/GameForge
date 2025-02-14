@@ -8,7 +8,7 @@ const HeroPosterCard = () => {
       animate={{ y: 0 }}
       transition={{
         type: "spring",
-        duration: 1.5,
+        duration: 2,
         bounce: 0.4,
       }}
       className="hero-card"

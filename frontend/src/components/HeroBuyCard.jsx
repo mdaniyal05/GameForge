@@ -10,7 +10,7 @@ const HeroBuyCard = () => {
         animate={{ x: 0 }}
         transition={{
           type: "spring",
-          duration: 1.5,
+          duration: 2,
           bounce: 0.4,
         }}
       >
