@@ -38,10 +38,10 @@ const SellersSection = ({ mainHeading, sellerData }) => {
           <div className="view-all">
             <Button
               text={"View All"}
-              bgColor={"#8355e5"}
-              color={"white"}
+              bgColor={"white"}
+              color={"#8355e5"}
               height={"42px"}
-              width={"175px"}
+              width={"145px"}
             />
           </div>
         </div>

@@ -1,4 +1,5 @@
 import "../css/newsLetterSection.css";
+import Button from "./Button";
 
 const NewsLetterSection = () => {
   return (
@@ -20,6 +21,13 @@ const NewsLetterSection = () => {
             <label htmlFor="checkbox">
               Yes, subscribe me to your newsletter.
             </label>
+            <Button
+              text={"Submit"}
+              bgColor={"white"}
+              color={"black"}
+              height={"46px"}
+              width={"180px"}
+            />
           </div>
         </div>
       </div>
