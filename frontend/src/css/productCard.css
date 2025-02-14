@@ -14,9 +14,18 @@
     color: white;
 }
 
+.product-image {
+    overflow: hidden;
+}
+
 .product-image img {
     border-radius: 5px;
     pointer-events: none;
+    transition: 0.5s ease;
+}
+
+.product-image:hover img {
+    transform: scale(1.1);
 }
 
 .product-name {
