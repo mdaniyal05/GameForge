@@ -3,6 +3,7 @@ import "../css/sellersSection.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
+import Button from "./Button";
 
 const SellersSection = ({ mainHeading, sellerData }) => {
   const [width, setWidth] = useState(0);
@@ -35,7 +36,13 @@ const SellersSection = ({ mainHeading, sellerData }) => {
             <></>
           )}
           <div className="view-all">
-            <span>View All</span>
+            <Button
+              text={"View All"}
+              bgColor={"#8355e5"}
+              color={"white"}
+              height={"38px"}
+              width={"193px"}
+            />
           </div>
         </div>
         <motion.div className="carousel" ref={carousel}>
