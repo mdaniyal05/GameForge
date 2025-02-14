@@ -2,10 +2,13 @@ import { useEffect, useRef, useState } from "react";
 import "../css/sellersSection.css";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
 
 const SellersSection = ({ mainHeading, sellerData }) => {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
@@ -14,8 +17,23 @@ const SellersSection = ({ mainHeading, sellerData }) => {
   return (
     <>
       <div className="seller-container">
-        <div className="seller-heading">
-          <h2>{mainHeading}</h2>
+        <div className="seller-heading" ref={ref}>
+          {isInView ? (
+            <motion.h2
+              ref={ref}
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 1,
+                delay: 0.5,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              {mainHeading}
+            </motion.h2>
+          ) : (
+            <></>
+          )}
           <div className="view-all">
             <span>View All</span>
           </div>
