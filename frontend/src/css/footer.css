@@ -17,22 +17,24 @@
 }
 
 .footer-logo, .footer-products, .footer-store, .footer-policy {
-    height: 495px;
+    height: 300px;
     width: 280px;
 }
 
 .footer-products, .footer-store, .footer-policy {
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 35px;
 }
 
 .footer-logo {
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
 }
@@ -44,6 +46,7 @@
 
 .footer-logo-icon {
     font-size: 80px;
+    margin-top: 25px;
 }
 
 .footer-products ul, .footer-store ul, .footer-policy ul {
