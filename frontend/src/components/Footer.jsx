@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,16 +12,26 @@ const Footer = () => {
       <div className="footer-cont">
         <div className="footer-options">
           <div className="footer-logo">
-            <PiGameControllerDuotone className="footer-logo-icon" />
+            <Link to={"/"}>
+              <PiGameControllerDuotone className="footer-logo-icon" />
+            </Link>
             <span>GAMEFORGE</span>
           </div>
           <div className="footer-products">
             <p>Products</p>
             <li>
-              <ul>Games</ul>
-              <ul>Consoles</ul>
-              <ul>Controllers</ul>
-              <ul>Accessories</ul>
+              <Link to={"/games"}>
+                <ul>Games</ul>
+              </Link>
+              <Link to={"/consoles"}>
+                <ul>Consoles</ul>
+              </Link>
+              <Link to={"/controllers"}>
+                <ul>Controllers</ul>
+              </Link>
+              <Link to={"/accessories"}>
+                <ul>Accessories</ul>
+              </Link>
             </li>
           </div>
           <div className="footer-store">
@@ -35,12 +46,24 @@ const Footer = () => {
           <div className="footer-policy">
             <p>Policy</p>
             <li>
-              <ul>Terms & Conditions</ul>
-              <ul>Shipping Policy</ul>
-              <ul>Refund Policy</ul>
-              <ul>Privacy Policy</ul>
-              <ul>Cookie Policy</ul>
-              <ul>FAQ</ul>
+              <Link to={"/terms-conditions"}>
+                <ul>Terms & Conditions</ul>
+              </Link>
+              <Link to={"/shipping-policy"}>
+                <ul>Shipping Policy</ul>
+              </Link>
+              <Link to={"/refund-policy"}>
+                <ul>Refund Policy</ul>
+              </Link>
+              <Link to={"/privacy-policy"}>
+                <ul>Privacy Policy</ul>
+              </Link>
+              <Link to={"/cookie-policy"}>
+                <ul>Cookie Policy</ul>
+              </Link>
+              <Link to={"/faq"}>
+                <ul>FAQ</ul>
+              </Link>
             </li>
           </div>
         </div>
@@ -61,10 +84,18 @@ const Footer = () => {
           </div>
           <div className="join-community">
             <p>Join the Community</p>
-            <FaFacebookF className="facebook" />
-            <FaInstagram className="instagram" />
-            <FaYoutube className="youtube" />
-            <FaTiktok className="tiktok" />
+            <Link to={"/facebook"}>
+              <FaFacebookF className="facebook" />
+            </Link>
+            <Link to={"/instagram"}>
+              <FaInstagram className="instagram" />
+            </Link>
+            <Link to={"/youtube"}>
+              <FaYoutube className="youtube" />
+            </Link>
+            <Link to={"/tiktok"}>
+              <FaTiktok className="tiktok" />
+            </Link>
           </div>
         </div>
         <div className="footer-copyright">
