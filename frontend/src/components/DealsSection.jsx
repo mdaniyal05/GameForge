@@ -61,7 +61,7 @@ const DealsSection = () => {
             </motion.div>
             <motion.div
               className="weeks-deals"
-              initial={{ x: -200, opacity: 0.5 }}
+              initial={{ x: -150, opacity: 0.5 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{
                 type: "keyframes",

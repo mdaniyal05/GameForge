@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "../css/sellersSection.css";
 import ProductCard from "./ProductCard";
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import Button from "./Button";
 
 const SellersSection = ({ mainHeading, sellerData }) => {
