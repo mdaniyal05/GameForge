@@ -15,7 +15,7 @@ const CategorySection = () => {
         <div className="category-section-cont2">
           <h2 className="category-heading" ref={ref}>
             {isInView ? (
-              <motion.span
+              <motion.h2
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -25,7 +25,7 @@ const CategorySection = () => {
                 }}
               >
                 SHOP BY CATEGORY
-              </motion.span>
+              </motion.h2>
             ) : (
               <></>
             )}

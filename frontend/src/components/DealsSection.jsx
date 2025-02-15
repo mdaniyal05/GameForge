@@ -11,54 +11,48 @@ const DealsSection = () => {
       <div className="deals-section-cont" ref={ref}>
         {isInView ? (
           <>
-            <motion.div
-              className="chrono-split"
-              initial={{ x: 100, opacity: 0.5 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                type: "keyframes",
-                duration: 1,
-              }}
-            >
-              <img
+            <div className="chrono-split">
+              <motion.img
                 src="/cover/chronosplitCover.jpg"
                 alt="Chrono Split"
                 width={400}
                 height={530}
+                initial={{ x: 100, opacity: 0.5 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{
+                  type: "keyframes",
+                  duration: 1,
+                }}
               />
-            </motion.div>
-            <motion.div
-              className="dead-at-last"
-              initial={{ y: 100, opacity: 0.5 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                type: "keyframes",
-                duration: 1,
-              }}
-            >
-              <img
+            </div>
+            <div className="dead-at-last">
+              <motion.img
                 src="/cover/deadAtLastCover.jpg"
                 alt="Dead At Last"
                 width={400}
                 height={530}
+                initial={{ y: 100, opacity: 0.5 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{
+                  type: "keyframes",
+                  duration: 1,
+                }}
               />
-            </motion.div>
-            <motion.div
-              className="kira"
-              initial={{ x: -100, opacity: 0.5 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                type: "keyframes",
-                duration: 1,
-              }}
-            >
-              <img
+            </div>
+            <div className="kira">
+              <motion.img
                 src="/cover/kiraCover.jpg"
                 alt="Kira"
                 width={400}
                 height={530}
+                initial={{ x: -100, opacity: 0.5 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{
+                  type: "keyframes",
+                  duration: 1,
+                }}
               />
-            </motion.div>
+            </div>
             <motion.div
               className="weeks-deals"
               initial={{ x: -150, opacity: 0.5 }}
