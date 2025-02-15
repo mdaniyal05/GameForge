@@ -15,7 +15,7 @@
 
 .card-image img {
     border-radius: 30px;
-    transition: 0.5s ease-in-out;
+    transition: 0.8s ease-in-out;
     transform-origin: center;
     filter: brightness(50%);
 }

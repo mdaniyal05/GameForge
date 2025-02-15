@@ -10,6 +10,7 @@ const Button = ({ text, bgColor, color, height, width }) => {
     color: `${color}`,
     fontWeight: "700",
     transition: "0.5s",
+    cursor: "pointer",
   };
 
   return (
