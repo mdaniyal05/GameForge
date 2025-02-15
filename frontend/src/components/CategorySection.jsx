@@ -3,6 +3,7 @@ import CategorySectionCard from "./CategorySectionCard";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const CategorySection = () => {
   const ref = useRef(null);
@@ -30,18 +31,24 @@ const CategorySection = () => {
             )}
           </h2>
           <div className="categories-cont">
-            <CategorySectionCard
-              cardName={"Consoles"}
-              imgSrc={"/cover/playstation.jpg"}
-            />
-            <CategorySectionCard
-              cardName={"Accessories"}
-              imgSrc={"/cover/accessories.jpg"}
-            />
-            <CategorySectionCard
-              cardName={"Controllers"}
-              imgSrc={"/cover/controller.jpg"}
-            />
+            <Link to={"/consoles"}>
+              <CategorySectionCard
+                cardName={"Consoles"}
+                imgSrc={"/cover/playstation.jpg"}
+              />
+            </Link>
+            <Link to={"/accessories"}>
+              <CategorySectionCard
+                cardName={"Accessories"}
+                imgSrc={"/cover/accessories.jpg"}
+              />
+            </Link>
+            <Link to={"/controllers"}>
+              <CategorySectionCard
+                cardName={"Controllers"}
+                imgSrc={"/cover/controller.jpg"}
+              />
+            </Link>
           </div>
         </div>
       </div>

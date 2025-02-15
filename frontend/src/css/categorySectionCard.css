@@ -1,3 +1,7 @@
+:root {
+    --lightPurple: #8355e5;
+}
+
 .card-cont {
     display: flex;
     flex-direction: column;
@@ -28,4 +32,10 @@
 .card-name {
     font-size: 22px;
     font-weight: 500;
+    transition: 0.5s;
+}
+
+.card-name:hover {
+    color: var(--lightPurple);
+    transition: 0.5s;
 }
