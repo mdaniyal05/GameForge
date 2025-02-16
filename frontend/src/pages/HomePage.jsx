@@ -16,26 +16,50 @@ import {
 const HomePage = () => {
   return (
     <>
-      <NavBar />
-      <HeroSection />
-      <SellersSection
-        mainHeading={"BEST SELLERS"}
-        sellerData={bestSellerData}
-      />
-      <CategorySection />
-      <DealsSection />
-      <SellersSection
-        mainHeading={"UPGRADE YOUR GEAR"}
-        sellerData={upgradeYourGearData}
-      />
-      <DiscountSection />
-      <SellersSection
-        mainHeading={"TRENDING GAMES"}
-        sellerData={trendingGamesData}
-      />
-      <NewsLetterSection />
-      <GamesStack />
-      <Footer />
+      <nav>
+        <NavBar />
+      </nav>
+      <main>
+        <section>
+          <HeroSection />
+        </section>
+        <section>
+          <SellersSection
+            mainHeading={"BEST SELLERS"}
+            sellerData={bestSellerData}
+          />
+        </section>
+        <section>
+          <CategorySection />
+        </section>
+        <figure>
+          <DealsSection />
+        </figure>
+        <section>
+          <SellersSection
+            mainHeading={"UPGRADE YOUR GEAR"}
+            sellerData={upgradeYourGearData}
+          />
+        </section>
+        <section>
+          <DiscountSection />
+        </section>
+        <section>
+          <SellersSection
+            mainHeading={"TRENDING GAMES"}
+            sellerData={trendingGamesData}
+          />
+        </section>
+        <section>
+          <NewsLetterSection />
+        </section>
+        <figure>
+          <GamesStack />
+        </figure>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
