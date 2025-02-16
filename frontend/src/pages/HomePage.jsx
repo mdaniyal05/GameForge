@@ -16,9 +16,11 @@ import {
 const HomePage = () => {
   return (
     <>
-      <nav>
-        <NavBar />
-      </nav>
+      <header>
+        <nav>
+          <NavBar />
+        </nav>
+      </header>
       <main>
         <section>
           <HeroSection />
