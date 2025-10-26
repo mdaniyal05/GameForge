@@ -31,4 +31,8 @@
   .categories-cont {
     flex-direction: column;
   }
+
+  .category-heading {
+    font-size: 20px;
+  }
 }

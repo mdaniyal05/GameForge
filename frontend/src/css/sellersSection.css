@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .seller-heading h2 {
@@ -90,6 +90,10 @@
 @media (max-width: 710px) {
   .seller-heading {
     width: 500px;
+  }
+
+  .seller-heading {
+    margin-top: 20px;
   }
 
   .carousel {
