@@ -1,64 +1,109 @@
 :root {
-    --lightPurple: #8355e5;
+  --lightPurple: #8355e5;
 }
 
 .seller-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 850px;
-    background-color: black;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+  background-color: black;
+  color: white;
 }
 
 .seller-heading {
-    width: 1312px;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 120px;
+  width: 1312px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
 }
 
 .seller-heading h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .view-all {
-    height: 38px;
-    width: 132px;
-    background-color: white;
-    color: var(--lightPurple);
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-    border: solid white 2px;
-    transition: 0.5s;
+  height: 38px;
+  width: 132px;
+  background-color: white;
+  color: var(--lightPurple);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: solid white 2px;
+  transition: 0.5s;
 }
 
 .view-all:hover {
-    background-color: var(--lightPurple);
-    color: white;
-    transition: 0.5s;
+  background-color: var(--lightPurple);
+  color: white;
+  transition: 0.5s;
 }
 
 .carousel {
-    height: 530px;
-    width: 1312px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    cursor: grab;
-    margin-bottom: 20px;
+  height: 530px;
+  width: 1312px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  cursor: grab;
+  margin-bottom: 20px;
 }
 
 .inner-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 1350px) {
+  .seller-heading {
+    width: 1000px;
+  }
+
+  .seller-container {
+    padding: 60px 16px;
+  }
+
+  .carousel {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .seller-heading {
+    width: 650px;
+  }
+
+  .carousel {
+    width: 650px;
+  }
+}
+
+@media (max-width: 710px) {
+  .seller-heading {
+    width: 500px;
+  }
+
+  .carousel {
+    width: 325px;
+  }
+}
+
+@media (max-width: 538px) {
+  .seller-heading {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 25px;
+    width: 500px;
+  }
 }
