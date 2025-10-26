@@ -1,34 +1,34 @@
 :root {
-    --lightGrey: #222122;
+  --lightGrey: #222122;
 }
 
 .category-section-cont {
-    background-color: var(--lightGrey);
-    color: white;
-    height: 950px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--lightGrey);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .category-section-cont2 {
-    width: 1350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 80px;
-}
-
-.category-heading span {
-    font-size: 42px;
-    font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px;
+  text-align: center;
 }
 
 .categories-cont {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 600px;
-    width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 1300px;
+}
+
+@media (max-width: 1150px) {
+  .categories-cont {
+    flex-direction: column;
+  }
 }
