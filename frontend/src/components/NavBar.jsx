@@ -1,8 +1,8 @@
 import "../css/navBar.css";
 import { PiGameControllerDuotone } from "react-icons/pi";
-import { RiShoppingCartLine } from "react-icons/ri";
+import { RiShoppingCartLine, RiMenu3Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import { useRef } from "react";
+import { useState, useRef } from "react";
 import { useInView } from "framer-motion";
 
 const Section = ({ children }) => {
@@ -26,6 +26,8 @@ const Section = ({ children }) => {
 };
 
 const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <div className="nav-bar">
@@ -37,7 +39,10 @@ const NavBar = () => {
             </Link>
           </Section>
         </div>
-        <div className="nav-all-list">
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          <RiMenu3Line />
+        </div>
+        <div className={`nav-all-list ${menuOpen ? "show-menu" : ""}`}>
           <li className="nav-list">
             <Link to={"/products"}>
               <ul>Products</ul>

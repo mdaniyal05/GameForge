@@ -1,62 +1,150 @@
 :root {
-    --darkPurple: #2e2042;
-    --lightPurple: #8355e5;
+  --darkPurple: #2e2042;
+  --lightPurple: #8355e5;
 }
 
 .nav-bar {
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("/cover/nav.jpg");
-    color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/cover/nav.jpg");
+  color: white;
+  padding: 0 50px;
 }
 
 .animation {
-    height: 100px;
-    font-size: 25px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  height: 100px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .nav-logo-name {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .nav-logo-icon {
-    font-size: 70px;
+  font-size: 70px;
 }
 
 .nav-all-list {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 150px;
-    font-size: 18px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
 }
 
 .nav-list ul {
-    font-weight: 500;
-    transition: 0.5s;
+  font-weight: 500;
+  transition: 0.5s;
 }
 
 .nav-list ul:hover {
-    color: var(--lightPurple);
-    transition-duration: 0.5s;
+  color: var(--lightPurple);
 }
 
 .nav-cart-icon {
-    font-size: 30px;
+  font-size: 30px;
+}
+
+/* ---------- HAMBURGER MENU ---------- */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+/* Tablets & smaller (≤992px) */
+@media (max-width: 992px) {
+  .nav-bar {
+    padding: 0 40px;
+  }
+
+  /* hide nav list by default */
+  .nav-all-list {
+    display: none;
+  }
+
+  /* show hamburger icon */
+  .hamburger {
+    display: block;
+  }
+
+  /* only show menu when toggled */
+  .nav-all-list.show-menu {
+    display: flex;
+    position: absolute;
+    top: 105px;
+    right: 0;
+    background-image: url("/cover/nav.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 25px 0;
+    gap: 15px;
+    z-index: 20;
+    animation: slideDown 0.3s ease forwards;
+  }
+
+  .nav-all-list.show-menu .nav-list {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .nav-all-list.show-menu .nav-list ul {
+    font-size: 18px;
+  }
+}
+
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+  .nav-bar {
+    padding: 0 20px;
+  }
+
+  .animation {
+    font-size: 20px;
+  }
+
+  .nav-logo-icon {
+    font-size: 50px;
+  }
+
+  .nav-all-list.show-menu {
+    top: 90px;
+    padding: 20px 0;
+  }
+
+  .nav-all-list.show-menu .nav-list ul {
+    font-size: 16px;
+  }
+}
+
+/* optional smooth dropdown animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
