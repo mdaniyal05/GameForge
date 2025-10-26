@@ -31,10 +31,12 @@ const NewsLetterSection = () => {
             <input type="email" />
           </div>
           <div className="email-input2">
-            <input type="checkbox" />
-            <label htmlFor="checkbox">
-              Yes, subscribe me to your newsletter.
-            </label>
+            <div className="checkbox-cont">
+              <input type="checkbox" />
+              <label htmlFor="checkbox">
+                Yes, subscribe me to your newsletter.
+              </label>
+            </div>
             <Button
               text={"Submit"}
               bgColor={"white"}

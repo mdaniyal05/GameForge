@@ -1,67 +1,85 @@
 .news-letter-cont {
-    min-height: 550px;
-    background-image: url("/cover/newsletter.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  min-height: 550px;
+  background-image: url("/cover/newsletter.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .heading-cont {
-    height: 100px;
-    text-align: center;
-    margin-bottom: 60px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .news-letter-heading {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .news-letter-desc {
-    font-size: 15px;
-    font-weight: lighter;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .email-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
 }
 
 .email-input {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .email-input input {
-    width: 600px;
-    height: 40px;
-    background: transparent;
-    outline: none;
-    border: solid white 2px;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
+  width: 600px;
+  height: 40px;
+  background: transparent;
+  outline: none;
+  border: solid white 2px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .email-input2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.email-input2 label {
-    margin-right: 75px;
+.checkbox-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 625px) {
+  .email-input input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 421px) {
+  .email-input input {
+    width: 250px;
+  }
 }
