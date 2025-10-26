@@ -72,6 +72,8 @@
   margin-bottom: 10px;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 625px) {
   .email-input input {
     width: 400px;

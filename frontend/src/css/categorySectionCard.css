@@ -43,6 +43,8 @@
   transition: 0.5s;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 1350px) {
   .card-image {
     height: 475px;

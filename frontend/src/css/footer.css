@@ -132,6 +132,8 @@
   text-align: center;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 790px) {
   .footer-products-cont {
     flex-direction: column;

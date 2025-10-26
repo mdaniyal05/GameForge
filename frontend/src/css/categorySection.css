@@ -27,6 +27,8 @@
   width: 1300px;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 1150px) {
   .categories-cont {
     flex-direction: column;

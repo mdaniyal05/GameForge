@@ -23,6 +23,8 @@
   margin-bottom: 25px;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 557px) {
   .spend-save {
     font-size: 40px;

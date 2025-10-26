@@ -19,6 +19,8 @@
   bottom: 100px;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 920px) {
   .games-stack {
     height: 250px;

@@ -90,6 +90,8 @@
   transition: 0.5s;
 }
 
+/* --- RESPONSIVE QUERIES --- */
+
 @media (max-width: 1600px) {
   .chrono-split {
     right: 250px;

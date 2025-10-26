@@ -58,7 +58,6 @@
   font-size: 30px;
 }
 
-/* ---------- HAMBURGER MENU ---------- */
 .hamburger {
   display: none;
   font-size: 30px;
@@ -68,23 +67,19 @@
 
 /* ---------- RESPONSIVE DESIGN ---------- */
 
-/* Tablets & smaller (≤992px) */
 @media (max-width: 992px) {
   .nav-bar {
     padding: 0 40px;
   }
 
-  /* hide nav list by default */
   .nav-all-list {
     display: none;
   }
 
-  /* show hamburger icon */
   .hamburger {
     display: block;
   }
 
-  /* only show menu when toggled */
   .nav-all-list.show-menu {
     display: flex;
     position: absolute;
@@ -113,7 +108,6 @@
   }
 }
 
-/* Mobile (≤576px) */
 @media (max-width: 576px) {
   .nav-bar {
     padding: 0 20px;
@@ -137,7 +131,6 @@
   }
 }
 
-/* optional smooth dropdown animation */
 @keyframes slideDown {
   from {
     opacity: 0;
