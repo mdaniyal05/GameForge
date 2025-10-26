@@ -10,14 +10,30 @@ const DealsSection = () => {
     <>
       <div className="deals-section-cont" ref={ref}>
         {isInView ? (
-          <>
-            <div className="chrono-split">
+          <div className="deals-cont">
+            <motion.div
+              className="weeks-deals"
+              initial={{ x: -150, opacity: 0.5 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{
+                type: "keyframes",
+                duration: 1,
+              }}
+            >
+              <h2>
+                <span className="this-week">THIS WEEK&apos;S DEALS</span>
+              </h2>
+              <span className="discount">10%</span>
+              <p>off all games</p>
+              <button className="deals-button">Shop Now</button>
+            </motion.div>
+            <div className="kira">
               <motion.img
-                src="/cover/chronosplitCover.jpg"
-                alt="Chrono Split"
+                src="/cover/kiraCover.jpg"
+                alt="Kira"
                 width={400}
                 height={530}
-                initial={{ x: 100, opacity: 0.5 }}
+                initial={{ x: -100, opacity: 0.5 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{
                   type: "keyframes",
@@ -39,13 +55,13 @@ const DealsSection = () => {
                 }}
               />
             </div>
-            <div className="kira">
+            <div className="chrono-split">
               <motion.img
-                src="/cover/kiraCover.jpg"
-                alt="Kira"
+                src="/cover/chronosplitCover.jpg"
+                alt="Chrono Split"
                 width={400}
                 height={530}
-                initial={{ x: -100, opacity: 0.5 }}
+                initial={{ x: 100, opacity: 0.5 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{
                   type: "keyframes",
@@ -53,23 +69,7 @@ const DealsSection = () => {
                 }}
               />
             </div>
-            <motion.div
-              className="weeks-deals"
-              initial={{ x: -150, opacity: 0.5 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                type: "keyframes",
-                duration: 1,
-              }}
-            >
-              <h2>
-                <span className="this-week">THIS WEEK&apos;S DEALS</span>
-              </h2>
-              <span className="discount">10%</span>
-              <p>off all games</p>
-              <button className="deals-button">Shop Now</button>
-            </motion.div>
-          </>
+          </div>
         ) : (
           <></>
         )}

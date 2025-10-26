@@ -1,85 +1,177 @@
 :root {
-    --lightPurple: #8355e5;
+  --lightPurple: #8355e5;
 }
 
 .deals-section-cont {
-    height: 808px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.chrono-split img, .dead-at-last img, .kira img, .weeks-deals {
-    border-radius: 25px;
+.deals-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 75px;
+}
+
+.chrono-split img,
+.dead-at-last img,
+.kira img,
+.weeks-deals {
+  border-radius: 25px;
 }
 
 .chrono-split {
-    position: absolute;
-    right: 100px;
-    z-index: 5;
+  position: relative;
+  right: 120px;
+  z-index: 5;
 }
 
 .dead-at-last {
-    position: absolute;
-    right: 393px;
-    bottom: 62px;
-    z-index: 4;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  z-index: 4;
 }
 
 .kira {
-    position: absolute;
-    left: 360px;
-    top: 80px;
-    z-index: 3;
+  position: relative;
+  left: 50px;
+  z-index: 3;
 }
 
 .weeks-deals {
-    height: 365px;
-    width: 555px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--lightPurple);
-    position: absolute;
-    z-index: 6;
-    left: 270px;
-    top: 120px;
-    color: white;
+  height: 365px;
+  min-width: 555px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightPurple);
+  position: relative;
+  left: 100px;
+  z-index: 6;
+  color: white;
 }
 
 .this-week {
-    font-size: 22px;
-    font-weight: 500;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .discount {
-    font-size: 130px;
-    font-weight: 700;
+  font-size: 130px;
+  font-weight: 700;
 }
 
 .weeks-deals p {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .deals-button {
-    height: 43px;
-    width: 143px;
-    border: solid white 2px;
-    border-radius: 100px;
-    color: var(--lightPurple);
-    font-size: 15px;
-    font-weight: 700;
-    transition: 0.5s;
+  height: 43px;
+  width: 143px;
+  border: solid white 2px;
+  border-radius: 100px;
+  color: var(--lightPurple);
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.5s;
 }
 
 .deals-button:hover {
-    background-color: var(--lightPurple);
-    color: white;
-    border: solid white 2px;
-    transition: 0.5s;
+  background-color: var(--lightPurple);
+  color: white;
+  border: solid white 2px;
+  transition: 0.5s;
+}
+
+@media (max-width: 1600px) {
+  .chrono-split {
+    right: 250px;
+  }
+
+  .dead-at-last {
+    top: 50px;
+    right: 100px;
+  }
+
+  .kira {
+    left: 100px;
+    z-index: 3;
+  }
+
+  .weeks-deals {
+    left: 250px;
+  }
+}
+
+@media (max-width: 1285px) {
+  .chrono-split {
+    right: 350px;
+    top: 50px;
+  }
+
+  .dead-at-last {
+    top: 150px;
+    right: 250px;
+  }
+
+  .kira {
+    left: 100px;
+    z-index: 3;
+  }
+
+  .weeks-deals {
+    top: 25px;
+    left: 350px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .chrono-split {
+    position: static;
+  }
+
+  .dead-at-last {
+    position: static;
+  }
+
+  .kira {
+    position: static;
+  }
+
+  .weeks-deals {
+    position: static;
+  }
+
+  .deals-cont {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .weeks-deals {
+    height: 365px;
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .weeks-deals {
+    height: 365px;
+    min-width: 300px;
+  }
+
+  .chrono-split img,
+  .dead-at-last img,
+  .kira img {
+    height: 450px;
+    width: 300px;
+  }
 }
