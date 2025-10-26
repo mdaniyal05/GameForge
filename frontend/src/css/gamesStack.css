@@ -1,21 +1,42 @@
 .games-stack-cont {
-    min-height: 320px;
-    background-image: url("/cover/gamesStackCover.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    position: relative;
+  min-height: 320px;
+  background-image: url("/cover/gamesStackCover.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .games-stack {
-    position: absolute;
-    height: 310px;
-    width: 962px;
-    bottom: 100px;
+  position: relative;
+  height: 310px;
+  width: 962px;
+  bottom: 100px;
+}
+
+@media (max-width: 920px) {
+  .games-stack {
+    height: 250px;
+    width: 662px;
+  }
+}
+
+@media (max-width: 644px) {
+  .games-stack {
+    height: 250px;
+    width: 562px;
+  }
+}
+
+@media (max-width: 538px) {
+  .games-stack {
+    height: 150px;
+    width: 362px;
+    bottom: 125px;
+  }
 }
