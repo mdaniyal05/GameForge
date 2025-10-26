@@ -15,56 +15,58 @@ const Footer = () => {
             <Link to={"/"}>
               <PiGameControllerDuotone className="footer-logo-icon" />
             </Link>
-            <span>GAMEFORGE</span>
+            <div>GAMEFORGE</div>
           </div>
-          <div className="footer-products">
-            <p>Products</p>
-            <li>
-              <Link to={"/games"}>
-                <ul>Games</ul>
-              </Link>
-              <Link to={"/consoles"}>
-                <ul>Consoles</ul>
-              </Link>
-              <Link to={"/controllers"}>
-                <ul>Controllers</ul>
-              </Link>
-              <Link to={"/accessories"}>
-                <ul>Accessories</ul>
-              </Link>
-            </li>
-          </div>
-          <div className="footer-store">
-            <p>Store</p>
-            <li>
-              <ul>500 Terry Francine Street San Francisco, CA 94158</ul>
-              <ul>Mon - Fri: 9am - 9pm</ul>
-              <ul>info@mysite.com</ul>
-              <ul>123-456-7890</ul>
-            </li>
-          </div>
-          <div className="footer-policy">
-            <p>Policy</p>
-            <li>
-              <Link to={"/terms-conditions"}>
-                <ul>Terms & Conditions</ul>
-              </Link>
-              <Link to={"/shipping-policy"}>
-                <ul>Shipping Policy</ul>
-              </Link>
-              <Link to={"/refund-policy"}>
-                <ul>Refund Policy</ul>
-              </Link>
-              <Link to={"/privacy-policy"}>
-                <ul>Privacy Policy</ul>
-              </Link>
-              <Link to={"/cookie-policy"}>
-                <ul>Cookie Policy</ul>
-              </Link>
-              <Link to={"/faq"}>
-                <ul>FAQ</ul>
-              </Link>
-            </li>
+          <div className="footer-products-cont">
+            <div className="footer-products">
+              <p>Products</p>
+              <li>
+                <Link to={"/games"}>
+                  <ul>Games</ul>
+                </Link>
+                <Link to={"/consoles"}>
+                  <ul>Consoles</ul>
+                </Link>
+                <Link to={"/controllers"}>
+                  <ul>Controllers</ul>
+                </Link>
+                <Link to={"/accessories"}>
+                  <ul>Accessories</ul>
+                </Link>
+              </li>
+            </div>
+            <div className="footer-store">
+              <p>Store</p>
+              <li>
+                <ul>500 Terry Francine Street San Francisco, CA 94158</ul>
+                <ul>Mon - Fri: 9am - 9pm</ul>
+                <ul>info@mysite.com</ul>
+                <ul>123-456-7890</ul>
+              </li>
+            </div>
+            <div className="footer-policy">
+              <p>Policy</p>
+              <li>
+                <Link to={"/terms-conditions"}>
+                  <ul>Terms & Conditions</ul>
+                </Link>
+                <Link to={"/shipping-policy"}>
+                  <ul>Shipping Policy</ul>
+                </Link>
+                <Link to={"/refund-policy"}>
+                  <ul>Refund Policy</ul>
+                </Link>
+                <Link to={"/privacy-policy"}>
+                  <ul>Privacy Policy</ul>
+                </Link>
+                <Link to={"/cookie-policy"}>
+                  <ul>Cookie Policy</ul>
+                </Link>
+                <Link to={"/faq"}>
+                  <ul>FAQ</ul>
+                </Link>
+              </li>
+            </div>
           </div>
         </div>
         <div className="divider">
