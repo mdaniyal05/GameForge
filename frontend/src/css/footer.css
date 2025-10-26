@@ -137,6 +137,7 @@
 @media (max-width: 790px) {
   .footer-products-cont {
     flex-direction: column;
+    gap: 10px;
   }
 
   .footer-others {
