@@ -88,7 +88,7 @@
   .nav-all-list.show-menu {
     display: flex;
     position: absolute;
-    top: 105px;
+    top: 100px;
     right: 0;
     background-image: url("/cover/nav.jpg");
     background-size: cover;

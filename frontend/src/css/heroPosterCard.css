@@ -1,14 +1,33 @@
 .hero-card {
-    margin-top: 100px;
-    height: 689px;
-    width: 536px;
-    background-image: url("/cover/heroPosterCard.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 30px;
-    position: absolute;
-    top: -20px;
-    right: 140px;
+  height: 689px;
+  width: 536px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  position: relative;
+  right: 100px;
+  top: 50px;
+}
+
+/* --- RESPONSIVE QUERIES --- */
+
+@media (max-width: 1350px) {
+  .hero-card {
+    right: 50px;
+    top: 2px;
+    width: 436px;
+    height: 589px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .hero-card {
+    position: static;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-card {
+    height: 409px;
+    width: 300px;
+  }
 }

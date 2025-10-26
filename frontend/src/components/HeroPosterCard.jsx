@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 const HeroPosterCard = () => {
   return (
-    <motion.div
+    <motion.img
+      src="/cover/heroPosterCard.jpg"
       initial={{ y: 500 }}
       animate={{ y: 0 }}
       transition={{
@@ -12,7 +13,7 @@ const HeroPosterCard = () => {
         bounce: 0.4,
       }}
       className="hero-card"
-    ></motion.div>
+    ></motion.img>
   );
 };
 

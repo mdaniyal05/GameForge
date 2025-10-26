@@ -1,16 +1,44 @@
 .hero-section {
-    min-height: 700px;
-    background-image: url("/cover/heroSection.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+  background-image: url("/cover/heroSection.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-card-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    position: relative;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  position: relative;
+  flex-wrap: nowrap;
+}
+
+/* --- RESPONSIVE QUERIES --- */
+
+@media (max-width: 1050px) {
+  .hero-card-box {
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    background-attachment: scroll;
+  }
+
+  .hero-card-box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 0;
+  }
 }
