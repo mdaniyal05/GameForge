@@ -8,9 +8,16 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ComingSoon from "./pages/ComingSoon.jsx";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<App />}></Route>)
+  createRoutesFromElements(
+    <Route path="/" element={<App />}>
+      <Route path="/" index={true} element={<HomePage />} />
+      <Route path="*" element={<ComingSoon />} />
+    </Route>
+  )
 );
 
 createRoot(document.getElementById("root")).render(
